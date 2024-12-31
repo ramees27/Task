@@ -1,24 +1,21 @@
 import  React from 'react'
 import Home from './Components/Home'
 
-
 import './App.css'
-import Context from './Components/Contex'
+import Context from './Components/Context'
 
 
 function App() {
 
 
   return (
+    <>
+    <Context/>
+      <Home/>
+      </>
   
-   <>
-   <Context>
-    <Home/>
-   </Context>
    
-   
-   </>
-    
+  
   )
 }
 
